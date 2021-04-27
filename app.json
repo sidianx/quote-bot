@@ -1,0 +1,40 @@
+{
+  "name": "CallsMusic",
+  "description": "Open-source bot to play music in group calls. Powered by https://github.com/pytgcalls/pytgcalls.",
+  "keywords": ["music", "voicechat", "telegram"],
+  "repository": "https://github.com/sidianx/quote-bot",
+  "stack": "container",
+  "env": {
+    "NODE_ENV": {
+      "description": "dont charge!",
+      "value": "dev",
+      "required": true
+    },
+    "MONGODB_URI": {
+      "description": "A bot token from @BotFather.",
+      "required": true
+    },
+    BOT_TOKEN": {
+      "description": "List of user IDs counted as admin everywhere (separated by space).",
+      "required": true
+    },
+    "GROUP_ID": {
+      "description": "An app ID from https://my.telegram.org/apps.",
+      "required": true
+    },
+    "EMOJI_DOMAIN": {
+      "description": "An app hash from https://my.telegram.org/apps.",
+      "value": "https://emojipedia.org/",
+      "required": true
+    },
+    "QUOTE_API_URI": {
+      "description": "List of user IDs counted as admin everywhere (separated by space).",
+      "required": true
+    },
+    "METRICS_PORT": {
+    "description": "List of user IDs counted as admin everywhere (separated by space).",
+    "value": "700",
+    "required": true
+    }
+  }
+}
