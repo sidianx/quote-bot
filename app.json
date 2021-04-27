@@ -14,7 +14,7 @@
       "description": "A bot token from @BotFather.",
       "required": true
     },
-    BOT_TOKEN": {
+    "BOT_TOKEN": {
       "description": "List of user IDs counted as admin everywhere (separated by space).",
       "required": true
     },
